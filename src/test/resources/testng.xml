@@ -1,0 +1,14 @@
+<suite name="Run Test Cases on Different Browsers" verbose="4" parallel="4" thread-count="4">
+    <test name="Run on Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="GridTest"/>
+        </classes>
+    </test>
+    <test name="Run on Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="GridTest"/>
+        </classes>
+    </test>
+</suite>
